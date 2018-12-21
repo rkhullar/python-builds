@@ -5,6 +5,7 @@ RUN apt-get -qq -y update && apt-get -qq -y upgrade
 RUN apt-get -qq -y install     \
     awscli                     \
     build-essential            \
+    curl                       \
     default-jre                \
     git-core                   \
     groff                      \
